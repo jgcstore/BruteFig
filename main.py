@@ -61,9 +61,9 @@ def menu():
 
 # Usuario de Instagram
 
-#_mariinelenaa
 
-usuario = '_mariinelenaa'
+
+usuario = input("Escoja su usuario para proceder al ataque...")
 
 
 archivo_salida = 'combinaciones.txt'
