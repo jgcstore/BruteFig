@@ -26,7 +26,7 @@ def probar_contraseña(usuario, contraseña):
 
 def generar_y_probar_contraseñas(usuario, archivo_salida, caracteres):
     with open(archivo_salida, 'w') as f:
-        for longitud in range(1, 13):  
+        for longitud in range(6, 20):  
             for combinacion in itertools.product(caracteres, repeat=longitud):
                 contraseña = ''.join(combinacion)
                 f.write(contraseña + '\n')  
